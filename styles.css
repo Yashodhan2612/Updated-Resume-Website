@@ -1,0 +1,43 @@
+body {
+  background-color: powderblue;
+}
+
+hr {
+  border-style:dotted none none;
+  border-color: green;
+  background-color: powderblue;
+  border-width: 5px;
+  width: 10%;
+}
+
+h1 {
+  color: Green;
+  font-style: oblique;
+  font-family: fantasy;
+
+}
+
+h3 {
+  color: Green;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+label {
+  color: Green;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+
+/******************CLass selectors
+<img class="namethisclass"  .....blah blah etc>
+in Styles.css<< .namethisclass {  whatever attribute}
+*******************/
+
+
+/************ID attribute (gets preference)
+classes get second preference and then external css gets last preference.
+#nameofID {whatever attribute}
+
+id is unique to a single element whereas, classes can be used for multiple elements.******/
